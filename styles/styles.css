@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.subheader {
+  background: #0a0a0a;
+  padding: 8px 0px;
+}
+
+.subheader p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-content {
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 159px;
+}
+
+.logo {
+  width: 165px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 37px;
+}
+
+.account-btn,
+.cart-btn {
+  padding: 3px 12px;
+  background-color: #0a0a0a;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.cart-btn {
+  background-color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 12px;
+}
+
+/* Main */
+.main-content {
+  background: url("../images/Banner.png");
+  width: 100%;
+  height: 569px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.main-text {
+  width: 538px;
+}
+
+.main-text h1 {
+  color: #fff;
+  font-size: 82px;
+  font-weight: 900;
+  line-height: 83.75px;
+  letter-spacing: 3.615px;
+  text-transform: uppercase;
+}
